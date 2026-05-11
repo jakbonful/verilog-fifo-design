@@ -1,0 +1,21 @@
+# ModelSim
+sim/modelsim/work/
+sim/modelsim/transcript
+sim/modelsim/*.mpf
+sim/modelsim/*.wlf
+*.vcd
+
+# Vivado
+synth/vivado/*.jou
+synth/vivado/*.log
+synth/vivado/.Xil/
+synth/vivado/*_project.runs/
+synth/vivado/*_project.cache/
+synth/vivado/*_project.hw/
+synth/vivado/*_project.ip_user_files/
+synth/vivado/*_project.sim/
+
+# General
+*.bak
+*.tmp
+Thumbs.db
