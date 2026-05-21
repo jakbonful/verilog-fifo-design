@@ -1,6 +1,5 @@
 # ModelSim
 sim/modelsim/work/
-sim/modelsim/transcript
 sim/modelsim/*.mpf
 sim/modelsim/*.wlf
 *.vcd
@@ -19,3 +18,4 @@ synth/vivado/*_project.sim/
 *.bak
 *.tmp
 Thumbs.db
+transcript
