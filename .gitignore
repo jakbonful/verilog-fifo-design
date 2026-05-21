@@ -1,4 +1,6 @@
+# =========================
 # ModelSim
+# =========================
 sim/modelsim/work/
 sim/modelsim/*.mpf
 sim/modelsim/*.wlf
@@ -7,17 +9,33 @@ sim/modelsim/*.wlf
 *.cr.*
 transcript
 
+# =========================
 # Vivado
-synth/vivado/*.jou
-synth/vivado/*.log
-synth/vivado/.Xil/
-synth/vivado/*_project.runs/
-synth/vivado/*_project.cache/
-synth/vivado/*_project.hw/
-synth/vivado/*_project.ip_user_files/
-synth/vivado/*_project.sim/
+# =========================
+.Xil/
+*.jou
+*.log
+*.pb
+*.str
+*.dcp
+*.cache
+*.hw
+*.runs/
+*.sim/
+*.ip_user_files/
+*.gen/
 
+# Vivado temporary/runtime files
+*.wdf
+*.rst
+*.rpx
+*.vds
+*.xml
+
+# =========================
 # General
+# =========================
 *.bak
 *.tmp
 Thumbs.db
+.DS_Store
