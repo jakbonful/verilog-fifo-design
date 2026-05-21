@@ -3,6 +3,9 @@ sim/modelsim/work/
 sim/modelsim/*.mpf
 sim/modelsim/*.wlf
 *.vcd
+*.mti
+*.cr.*
+transcript
 
 # Vivado
 synth/vivado/*.jou
@@ -18,4 +21,3 @@ synth/vivado/*_project.sim/
 *.bak
 *.tmp
 Thumbs.db
-transcript
